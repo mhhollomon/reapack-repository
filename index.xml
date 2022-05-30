@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="MHH Reaper Utilities" commit="04c5237f069c3d33dfe06f853f5e993f2d4696ae">
+<index version="1" name="MHH Reaper Utilities" commit="3ddb9ec51adacef965602f771e1dcd47046dda7a">
   <category name="Utility">
     <reapack name="Set_track_height.lua" type="script" desc="Force all tracks to a set height">
       <version name="0.2" time="2022-05-30T23:09:36Z">
@@ -7,6 +7,12 @@
         <source main="main" file="MHH-Set-Track-height (Medium)">https://github.com/mhhollomon/reapack-respository/raw/04c5237f069c3d33dfe06f853f5e993f2d4696ae/Utility/Set_track_height.lua</source>
         <source main="main" file="MHH-Set-Track-height (Small)">https://github.com/mhhollomon/reapack-respository/raw/04c5237f069c3d33dfe06f853f5e993f2d4696ae/Utility/Set_track_height.lua</source>
         <source main="main" file="MHH-Set-Track-height (Compact)">https://github.com/mhhollomon/reapack-respository/raw/04c5237f069c3d33dfe06f853f5e993f2d4696ae/Utility/Set_track_height.lua</source>
+      </version>
+      <version name="0.3" time="2022-05-30T23:34:29Z">
+        <source main="main" file="MHH-Set-Track-height (Large).lua">https://github.com/mhhollomon/reapack-respository/raw/3ddb9ec51adacef965602f771e1dcd47046dda7a/Utility/Set_track_height.lua</source>
+        <source main="main" file="MHH-Set-Track-height (Medium).lua">https://github.com/mhhollomon/reapack-respository/raw/3ddb9ec51adacef965602f771e1dcd47046dda7a/Utility/Set_track_height.lua</source>
+        <source main="main" file="MHH-Set-Track-height (Small).lua">https://github.com/mhhollomon/reapack-respository/raw/3ddb9ec51adacef965602f771e1dcd47046dda7a/Utility/Set_track_height.lua</source>
+        <source main="main" file="MHH-Set-Track-height (Compact).lua">https://github.com/mhhollomon/reapack-respository/raw/3ddb9ec51adacef965602f771e1dcd47046dda7a/Utility/Set_track_height.lua</source>
       </version>
     </reapack>
   </category>
