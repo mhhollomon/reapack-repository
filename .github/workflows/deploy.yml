@@ -1,7 +1,7 @@
 name: deploy
 on:
   push:
-    branches: [master]
+    branches: [main]
 jobs:
   reapack-index:
     runs-on: ubuntu-latest
@@ -12,8 +12,8 @@ jobs:
         fetch-depth: 0
     - name: Configure git
       run: |-
-        git config user.name  'ReaTeam Bot'
-        git config user.email 'reateam-bot@cfillion.ca'
+        git config user.name  'Mark Hollomon'
+        git config user.email 'mhhollomon@gmail.com'
     - name: Install Pandoc
       run:  sudo apt-get install -yy pandoc
     - name: Set up Ruby
