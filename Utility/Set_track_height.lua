@@ -1,4 +1,4 @@
--- @version 0.1
+-- @version 0.2
 -- @description Force all tracks to a set height
 -- @metapackage
 -- @provides
@@ -30,4 +30,4 @@ end
 reaper.TrackList_AdjustWindows(0)
 reaper.UpdateTimeline()
 --
-reaper.Undo_Endblock(script_name, 1)
+reaper.Undo_EndBlock(script_name, 1)
