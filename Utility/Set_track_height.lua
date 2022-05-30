@@ -1,4 +1,4 @@
--- @version 0.2
+-- @version 0.3
 -- @description Force all tracks to a set height
 -- @metapackage
 -- @provides
@@ -19,12 +19,14 @@ local slot = (script_name:match("%((%a+)%)"))
 
 local trackcount = reaper.CountTracks(0)
 
+local new_size = sizes[slot]
+
 
 reaper.Undo_BeginBlock()
 --
 for track_index = 0, trackcount-1 do
   tr = reaper.GetTrack(0, track_index)
-  reaper.SetMediaTrackInfo_Value(tr, 'I_HEIGHTOVERRIDE', 40)
+  reaper.SetMediaTrackInfo_Value(tr, 'I_HEIGHTOVERRIDE', new_size)
 end
 
 reaper.TrackList_AdjustWindows(0)
