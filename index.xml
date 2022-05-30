@@ -21,8 +21,9 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 reapack-respository\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 reapack-repository\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Repository of my little scripts for REAPER\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab MHH-Set-Track-height (xxx) - set the track height to one of 5 predefined sizes.\sa180\par}
 }
 ]]></description>
   </metadata>
