@@ -1,7 +1,7 @@
 -- @version 0.1
 -- @description Force all tracks to a set height
 -- @metapackage
--- @provide
+-- @provides
 --  [main] . > MHH-Set-Track-height (Large)
 --  [main] . > MHH-Set-Track-height (Medium)
 --  [main] . > MHH-Set-Track-height (Small)
