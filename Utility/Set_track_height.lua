@@ -2,10 +2,10 @@
 -- @description Force all tracks to a set height
 -- @metapackage
 -- @provides
---  [main] . > MHH-Set-Track-height (Large)
---  [main] . > MHH-Set-Track-height (Medium)
---  [main] . > MHH-Set-Track-height (Small)
---  [main] . > MHH-Set-Track-height (Compact)
+--  [main] . > MHH-Set-Track-height (Large).lua
+--  [main] . > MHH-Set-Track-height (Medium).lua
+--  [main] . > MHH-Set-Track-height (Small).lua
+--  [main] . > MHH-Set-Track-height (Compact).lua
 
 local sizes = {
     Large = 150,
